@@ -1,32 +1,47 @@
-# React + TypeScript + Vite
+# Programming School
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Programming School is a simple and interactive web application for exploring different technologies and building your own development stack.
 
-Currently, two official plugins are available:
+Users can explore technologies such as React, JavaScript, TypeScript, Tailwind CSS, Node.js, PostgreSQL, MongoDB, Docker, and more. They can also add technologies to their personal stack and remove them whenever they want.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
 
-## React Compiler
+This project was built using:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+- React Toastify
+- JSON 
 
-## Expanding the Oxlint configuration
+## Features
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+### 1. Explore Technologies
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+Browse different technologies and see useful information about them, including:
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+- Technology name
+- Category
+- Description
+- Difficulty level
+- Rating
+- Technology badge
+
+### 2. Build Your Own Stack
+
+Users can add technologies to their personal development stack.
+
+The application also prevents the same technology from being added more than once.
+
+Users can also remove individual technologies or clear the entire stack.
+
+### 3. Responsive Design
+
+The website is responsive and works across different screen sizes, including:
+
+- Desktop
+- Tablet
+- Mobile
+
+The layout adjusts automatically to provide a better experience on smaller screens.
