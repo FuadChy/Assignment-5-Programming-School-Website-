@@ -13,10 +13,12 @@ const Technologies = () => {
             <p>Pick one technology per category to build your ideal stack.</p>
                 </div>
 {/* all card div */}
-<div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+<div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
+    <div className="lg:col-span-3">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
     {
 technologies.map((technology) => (
-// individual card div
+
   <div key={technology.id} className="flex h-full flex-col rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
    <div className="flex items-center gap-4">
   <img
@@ -54,6 +56,23 @@ technologies.map((technology) => (
   </div>
 ))
 }
+</div>
+</div>
+<div>
+    <h2 className="text-2xl font-bold text-gray-900">
+        Your Stack
+    </h2>
+
+    <p className="mt-2 text-gray-500">
+        No technologies selected yet.
+    </p>
+
+    <div className="mt-6 rounded-xl border border-gray-200 bg-white p-6">
+        <p className="text-center text-gray-500">
+            Your stack is empty.
+        </p>
+    </div>
+</div>
 </div>
             </div>
         </section>
