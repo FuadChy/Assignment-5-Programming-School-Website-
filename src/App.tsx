@@ -1,7 +1,9 @@
-import { useState } from 'react'
+
 import Navbar from './Component/Navbar/Navbar'
 import Hero from './Component/Hero/Hero'
 import Technologies from './Component/Technologies/Technologies'
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
     <Navbar />
     <Hero />
     <Technologies />
+    <ToastContainer />
     </>
   )
 }

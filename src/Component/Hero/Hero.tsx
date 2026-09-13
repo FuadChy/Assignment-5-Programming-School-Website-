@@ -7,10 +7,8 @@ const Hero = () => {
       <div className="container mx-auto max-w-6xl px-4">
         {/* Hero Layout */}
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
-
           {/* Left Side: Text Content */}
           <div className="flex w-full flex-col items-center text-center md:w-1/2 md:items-start md:text-left">
-
             {/* Main Heading */}
             <h1 className="text-3xl font-bold leading-tight text-gray-900 sm:text-5xl">
               Build Your Ideal <br />
@@ -21,14 +19,13 @@ const Hero = () => {
 
             {/* Description */}
             <p className="mt-4 max-w-xl text-base text-gray-600 sm:text-lg">
-              Explore frontend, backend, database, and tooling options,
-              compare them side by side, and put together the stack that fits
-              your next project.
+              Explore frontend, backend, database, and tooling options, compare
+              them side by side, and put together the stack that fits your next
+              project.
             </p>
 
             {/* Buttons */}
             <div className="mt-6 flex w-full flex-col gap-4 sm:w-auto sm:flex-row">
-
               {/* Explore Technologies */}
               <button
                 type="button"
@@ -44,7 +41,6 @@ const Hero = () => {
               >
                 Learn More
               </button>
-
             </div>
           </div>
 
@@ -56,7 +52,6 @@ const Hero = () => {
               className="h-auto w-full max-w-md"
             />
           </div>
-
         </div>
       </div>
     </section>
